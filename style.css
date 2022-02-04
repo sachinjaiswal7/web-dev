@@ -23,7 +23,11 @@ body{
    
     outline: none;
     resize: none;
-
+    font-size: 12px;
+    
+}
+span{
+    font-size: 14px;
 }
 #typing_input:focus{
 border: 1px solid rgb(33,33,33);
@@ -34,4 +38,11 @@ top: 2rem;
 font-size: 2rem;
 font-weight: bold;
 color: rgb(80,80,80);
+}
+.correct{
+    color: green;
+}
+.incorrect{
+    color: red;
+    text-decoration: underline;
 }
